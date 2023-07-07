@@ -1,0 +1,33 @@
+By the end of this lesson, you should be able to:
+
+Describe what it means for code to run asynchronously.
+Identify what kind of operations usually lead to asynchronous code.
+Identify the purpose of promises.
+Distinguish between the three states of promises.
+Gracefully handle errors by showing a response to the user.
+Use the fetch() API to make GET requests to a public JSON API.
+Use the data from an API call to build a web application, including event listeners.
+
+JavaScript is asynchronous, meaning it starts a task (code block) and does not wait for it to finish before moving on to the following code block
+
+
+
+A(negates) sync(same) chronos(time)
+
+not at the same time 
+
+link a promise (response to a fetch) using settimeout
+
+  new Promise() is a callBack function that takes in a function as an argument
+
+  when creating a new promisee, we can decide what happens when it's resolved 
+  and when its rejected
+
+  promise is an object that gives kvp
+
+  .then() handles the promise chain  bc we dont know how long the fetch will take
+  a function that takes in function as argument
+
+can nest many .then()
+
+if promise is true, resolvedif promise false reject
